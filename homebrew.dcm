@@ -1,3 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP AM26LS31x
+D Quad RS422/RS485 differential line driver
+K RS485, RS422
+F http://www.ti.com/lit/ds/symlink/am26ls31.pdf
+$ENDCMP
+#
 #End Doc Library
