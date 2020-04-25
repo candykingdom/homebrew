@@ -6,4 +6,14 @@ K RS485, RS422
 F http://www.ti.com/lit/ds/symlink/am26ls31.pdf
 $ENDCMP
 #
+$CMP MCP4661
+D Digital potentiometer, 257 steps
+$ENDCMP
+#
+$CMP USB_LIPO_CHARGER
+D Micro USB lithium battery charger based on TP4056, e.g.: https://www.ebay.com/itm/Micro-USB-Li-Ion-Battery-Charger-Module-TP4056-3-7V-4-2V-Lithium-Li-Po-US-SHIP/192489059260
+K usb, lipo, lithium, charger
+F https://www.ebay.com/itm/Micro-USB-Li-Ion-Battery-Charger-Module-TP4056-3-7V-4-2V-Lithium-Li-Po-US-SHIP/192489059260
+$ENDCMP
+#
 #End Doc Library
