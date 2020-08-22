@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 2N4401
+D 800mA Ic, 50V Vce, NPN Transistor, TO-39
+K NPN Transistor
+F http://www.onsemi.com/pub_link/Collateral/2N2219-D.PDF
+$ENDCMP
+#
 $CMP AM26LS31x
 D Quad RS422/RS485 differential line driver
 K RS485, RS422
@@ -14,6 +20,18 @@ $CMP USB_LIPO_CHARGER
 D Micro USB lithium battery charger based on TP4056, e.g.: https://www.ebay.com/itm/Micro-USB-Li-Ion-Battery-Charger-Module-TP4056-3-7V-4-2V-Lithium-Li-Po-US-SHIP/192489059260
 K usb, lipo, lithium, charger
 F https://www.ebay.com/itm/Micro-USB-Li-Ion-Battery-Charger-Module-TP4056-3-7V-4-2V-Lithium-Li-Po-US-SHIP/192489059260
+$ENDCMP
+#
+$CMP BC140
+D 1A Ic, 40V Vce, NPN Transistor, TO-39
+K NPN Transistor
+F http://www.farnell.com/datasheets/296634.pdf
+$ENDCMP
+#
+$CMP BC141
+D 1A Ic, 60V Vce, NPN Transistor, TO-39
+K NPN Transistor
+F http://www.farnell.com/datasheets/296634.pdf
 $ENDCMP
 #
 #End Doc Library
