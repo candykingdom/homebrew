@@ -12,16 +12,6 @@ K RS485, RS422
 F http://www.ti.com/lit/ds/symlink/am26ls31.pdf
 $ENDCMP
 #
-$CMP MCP4661
-D Digital potentiometer, 257 steps
-$ENDCMP
-#
-$CMP USB_LIPO_CHARGER
-D Micro USB lithium battery charger based on TP4056, e.g.: https://www.ebay.com/itm/Micro-USB-Li-Ion-Battery-Charger-Module-TP4056-3-7V-4-2V-Lithium-Li-Po-US-SHIP/192489059260
-K usb, lipo, lithium, charger
-F https://www.ebay.com/itm/Micro-USB-Li-Ion-Battery-Charger-Module-TP4056-3-7V-4-2V-Lithium-Li-Po-US-SHIP/192489059260
-$ENDCMP
-#
 $CMP BC140
 D 1A Ic, 40V Vce, NPN Transistor, TO-39
 K NPN Transistor
@@ -32,6 +22,22 @@ $CMP BC141
 D 1A Ic, 60V Vce, NPN Transistor, TO-39
 K NPN Transistor
 F http://www.farnell.com/datasheets/296634.pdf
+$ENDCMP
+#
+$CMP HT7K1201
+D 1-channel H-bridge driver, 6V, 1.3A peak, SOT-23-6
+K h-bridge
+F https://www.holtek.com/documents/10179/116711/HT7K1201v140.pdf
+$ENDCMP
+#
+$CMP MCP4661
+D Digital potentiometer, 257 steps
+$ENDCMP
+#
+$CMP USB_LIPO_CHARGER
+D Micro USB lithium battery charger based on TP4056, e.g.: https://www.ebay.com/itm/Micro-USB-Li-Ion-Battery-Charger-Module-TP4056-3-7V-4-2V-Lithium-Li-Po-US-SHIP/192489059260
+K usb, lipo, lithium, charger
+F https://www.ebay.com/itm/Micro-USB-Li-Ion-Battery-Charger-Module-TP4056-3-7V-4-2V-Lithium-Li-Po-US-SHIP/192489059260
 $ENDCMP
 #
 #End Doc Library
