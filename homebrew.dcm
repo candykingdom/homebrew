@@ -12,6 +12,10 @@ K RS485, RS422
 F http://www.ti.com/lit/ds/symlink/am26ls31.pdf
 $ENDCMP
 #
+$CMP AP2172
+F https://www.diodes.com/assets/Datasheets/AP2162_72.pdf
+$ENDCMP
+#
 $CMP BC140
 D 1A Ic, 40V Vce, NPN Transistor, TO-39
 K NPN Transistor
@@ -22,6 +26,12 @@ $CMP BC141
 D 1A Ic, 60V Vce, NPN Transistor, TO-39
 K NPN Transistor
 F http://www.farnell.com/datasheets/296634.pdf
+$ENDCMP
+#
+$CMP CN3058E
+D Single-cell LiFePO4 battery charger IC
+K lithium LiFePO4 charger
+F http://www.consonance-elec.com/pdf/datasheet/DSE-CN3058E.pdf
 $ENDCMP
 #
 $CMP HT7K1201
@@ -48,6 +58,12 @@ $ENDCMP
 #
 $CMP MCP4661
 D Digital potentiometer, 257 steps
+$ENDCMP
+#
+$CMP MCP4726
+D 12-bit Digital-to-Analog Converter, integrated EEPROM, I2C interface, SOT-23-6
+K dac twi
+F http://ww1.microchip.com/downloads/en/DeviceDoc/22039d.pdf
 $ENDCMP
 #
 $CMP USB_LIPO_CHARGER
