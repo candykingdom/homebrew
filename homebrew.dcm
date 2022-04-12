@@ -40,6 +40,12 @@ K h-bridge
 F https://www.holtek.com/documents/10179/116711/HT7K1201v140.pdf
 $ENDCMP
 #
+$CMP ILS_TA180_50
+D Integrated LED Tactile Switch
+K led, tactile, button
+F https://www.ckswitches.com/media/2865/ils.pdf
+$ENDCMP
+#
 $CMP INA220
 D High-Side or Low-Side Measurement, Bi-Directional Current and Power Monitor (0-36V) with I2C Compatible Interface, VSSOP-10
 K ADC I2C 16-Bit Oversampling Current Shunt
@@ -70,6 +76,12 @@ $CMP USB_LIPO_CHARGER
 D Micro USB lithium battery charger based on TP4056, e.g.: https://www.ebay.com/itm/Micro-USB-Li-Ion-Battery-Charger-Module-TP4056-3-7V-4-2V-Lithium-Li-Po-US-SHIP/192489059260
 K usb, lipo, lithium, charger
 F https://www.ebay.com/itm/Micro-USB-Li-Ion-Battery-Charger-Module-TP4056-3-7V-4-2V-Lithium-Li-Po-US-SHIP/192489059260
+$ENDCMP
+#
+$CMP WS2811
+D 3-Channel 8-Bit PWM LED Driver, DIP-8/SOIC-8
+K PWM LED driver
+F https://cdn-shop.adafruit.com/datasheets/WS2811.pdf
 $ENDCMP
 #
 #End Doc Library
