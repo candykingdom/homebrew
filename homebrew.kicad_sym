@@ -2856,7 +2856,10 @@
     (property "Datasheet" "" (id 3) (at 0 0 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "ki_fp_filters" "LQFP48 LQFP48-M LQFP48-L" (id 4) (at 0 0 0)
+    (property "ki_description" "ARM Cortex-M0+ series Microcontroller IC 32-Bit Single-Core 64MHz 64KB (64K x 8) FLASH 48-LQFP (7x7)" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "LQFP48 LQFP48-M LQFP48-L" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "STM32G030C8T6_1_1"
@@ -3099,7 +3102,10 @@
     (property "Datasheet" "" (id 3) (at 0 0 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "ki_fp_filters" "TSSOP20 TSSOP20-M TSSOP20-L" (id 4) (at 0 0 0)
+    (property "ki_description" "ARM Cortex-M0+ series Microcontroller IC 32-Bit Single-Core 64MHz 32KB (32K x 8) FLASH 20-TSSOP" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "TSSOP20 TSSOP20-M TSSOP20-L" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "STM32G030F6P6_1_1"
