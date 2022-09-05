@@ -1,0 +1,36 @@
+(VBAT|VREF+|VDD/VDDA) {
+  class: "power_p";
+  elecType: pin;
+}
+
+VSS/VSSA {
+  class: "power_n";
+  elecType: pin;
+}
+
+.power_p {
+  position: top;
+}
+
+.power_n {
+  position: bottom;
+}
+
+
+P[AB].* {
+  class: "port_right";
+  electType: bidir;
+}
+
+P[CDF].* {
+  class: "port_left";
+  electType: bidir;
+}
+
+.port_right {
+  position: right;
+}
+
+.port_left {
+  position: left;
+}
