@@ -1011,7 +1011,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.aosong.com/en/products-102.html"
+		(property "Datasheet" "https://micronika.ru/upload/iblock/d03/ky33hrzrszlnmbmiyfqta85cqqrkyhtl.pdf"
 			(at 0.254 26.67 0)
 			(effects
 				(font
